@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+*{ /*이 문서 전체에 해당하는 폰트이다.*/
+    font-family: 'Monterrat';
+}
+
+body,h1,h2 {
+    margin : 0px;
+    padding : 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color:#282828; 
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom : 16px;
+    padding-bottom : 5px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+footer { /*클래스들에 맞게 기능들을 꾸미도록 넣은것들*/
+    text-align: center;
+    background-color: #1e1e1e;
+    padding : 20px;
+    font-size: 12px;
+    color : #919191;
+}
+
+.mainbox {
+    border: 1px solid #2b2b2b;/*border는 두께, 형태, 색깔로 나타냄*/
+    width: 610px;
+    margin-left: auto; /* 이것이 박스를 가운데 정렬을 하도록*/
+    margin-right: auto; /* 도와주는 것들인데 이유는 모름.*/
+    padding: 30px;
+    margin : 30px;
+    box-shadow: 0px 1px 100px  rgba(0,0,0,0.1); /*0~255*/
+}
+
+.name-text {
+    font-size :17px;
+    color : #7c7c7c;
+    font-weight: bold;
+    text-align: right;
+}
+
+section {
+    margin-bottom : 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color:#282828;
+    float : left;
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float : right;
+}
+
+.float-wrap {
+    overflow: hidden; /*다른 요소들과 겹쳐지지 않도록*/ 
+
+}
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color :#282828;
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+.title-text {
+    text-align: right;
+}
+
+.sns-img {
+    width: 12px;
+    height: 12px;
+    text-align: right;
+}
+
+.sns-wrap {
+    text-align: right;
+}
